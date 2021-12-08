@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body class="body">
+    <h1 style="text-align: center;color: red;">Shopping Cart</h1>
+    <header class="products">
+        <div class="product">
+            <img class="image" src="./Images/1.jpg" />
+            <p class="desc">Product Code: 1111</p>
+            <input type="text" class="size" placeholder="Size" />
+            <p type="text" class="price">100.00</p>
+            <button class="addItem">Add to Cart </button>
+        </div>
+        <div class="product">
+            <img class="image" src="./Images/2.jpg" />
+            <p class="desc">Product Code: 2222</p>
+            <input type="text" class="size" placeholder="Size" />
+            <p type="text" class="price">200.00</p>
+            <button class="addItem">Add to Cart </button>
+        </div>
+        <div class="product">
+            <img class="image" src="./Images/3.jpg" />
+            <p class="desc">Product Code: 33333</p>
+            <input type="text" class="size" placeholder="Size" />
+            <p type="text" class="price">300.00</p>
+            <button class="addItem">Add to Cart </button>
+        </div>
+        <div class="product">
+            <img class="image" src="./Images/4.jpg" />
+            <p class="desc">Product Code: 4444</p>
+            <input type="text" class="size" placeholder="Size" />
+            <p type="text" class="price">400.00</p>
+            <button class="addItem">Add to Cart </button>
+        </div>
+    </header>
+    <br>
+    <main>
+        <section class="S">
+            <div class="headerList">
+                <a>Description</a>
+                <a>Size</a>
+                <a>Quantity</a>
+                <a>Remove</a>
+                <a>Price</a>
+            </div>
+            <hr />
+        </section>
+<hr>
+        <section class="section2">
+            <div class="sect2">
+                <p>Discount</p>
+                <p>0.00</p>
+            </div>
+            <div class="sect2">
+                <p>Delivery</p>
+                <p>0.00</p>
+            </div>
+            <div class="sect2">
+                <p>Subtotal</p>
+                <p>0.00</p>
+            </div>
+            <div class="sect2">
+                <p>Total</p>
+                <p id="total">0.00</p>
+            </div>
+        </section>
+
+        <section>
+            <p class="promo"> If you have a promotion code, please enterit there :</p>
+            <input type="text" class="inputPromo" placeholder="Please enter promo code">
+            <button class="ButtonPromo">Apply Discount</button>
+            <button class="ButtonPromo">Checkout</button>
+            <button>Img</button>
+        </section>
+    </main>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

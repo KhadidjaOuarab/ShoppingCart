@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.image{
+height: 120px;
+width: 80px;
+
+}
+
+.body {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+
+.article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.sect2{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    padding: 20px;
+    margin-top: 50px;
+    border-style : solid ;
+    border-width : 1px;
+    font-weight: bold;
+   
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+   
+    
+}
+
+input{
+    height: 35px;
+    width: 35px;
+    color: black;
+    text-align: center;
+   
+}
+
+button{
+    height: 35px;
+    width: 35px;
+    border: 0px;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    
+   
+}
+
+.plus{
+    background-color: rgb(12, 48, 124);
+    color: white;
+}
+
+.choix{
+    display: flex;
+    justify-content: center;
+}
+
+.promo{
+    padding: 20px;
+}
+
+.promotion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15%;
+}
+
+.inputPromo{
+    width: 250px;
+
+}
+
+.ButtonPromo{
+    width: 180px;
+    background-color:rgb(12, 48, 124); 
+    color: white;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.addItem{
+    width: 75px;
+}
+
+.headerList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 150px;
+    font-weight: bold;
+    color: rgb(14, 14, 44);
+}
